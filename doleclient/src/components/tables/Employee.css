@@ -1,0 +1,144 @@
+.employee_mngt_main{
+    padding: 40px;
+    background-color: #f1f4f9;
+    width: 100vw;
+}
+.employee_mngt_add{
+    width: 100%;
+    padding: 20px;
+}
+.employee_add_access{
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+}
+.employee_add_title{
+    padding-left: 20px;
+    padding-top: 12px;
+}
+.employee_add_title p {
+    font-size: 22px;
+    font-weight: 600;
+}
+.employee_add_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.employee_data{
+    padding: 20px;
+    width: 350px;
+}
+.employee_data p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.employee_add_button{
+    padding: 20px 20px 0 20px;
+    margin: auto 0;
+}
+
+select.form-control {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+.employee_table_access{
+    margin-top: 32px !important;
+    padding: 20px 20px 40px 20px;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    border: 2px solid #f1f4f9;
+}
+.employee_name{
+    text-align: center;
+    padding: 12px;
+    
+}
+
+.employee_name p {
+    font-size: 18px;
+    margin: 20px auto;
+    width: 300px;
+    padding: 8px;
+    border: 2px solid #e1e1e1;
+    border-radius: 8px;
+    font-weight: 400;
+    box-shadow: 0px 0px 10px 8px #888888;
+}
+.employee_name h5{
+    font-weight: 600;
+}
+.employee_table{
+    margin: 0 auto;
+    height: 400px;
+    overflow-y: auto;
+    width: 90%;
+}
+table{
+    margin: 0 auto;
+}
+
+.table_th{
+    border-top-left-radius: 12px;
+}
+.table_th2{
+    border-top-right-radius: 12px;
+    min-width: 200px;
+}
+
+
+th{
+    width: 200px;
+    font-size: 14px;
+    text-align: center !important;
+    padding: 12px;
+    background-color: #303633;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+td{
+    width: 200px;
+    font-size: 14px;
+    text-align: center !important;
+    padding: 8px;
+    /* background-color: #ADD6FF; */
+    color: #1e1e1e;
+    font-weight: 600;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+
+.employee_table input{
+    width: 200px;
+    font-size: 14px;
+    text-align: center !important;
+    padding: 8px;
+    /* background-color: #ADD6FF; */
+    color: #1e1e1e;
+    font-weight: 600;
+    border: 2px solid rgba(0,0,0,0.1);
+}
+.btn-success{
+    margin-right: 8px;
+}
+.table_th_role_desc{
+    min-width: 350px !important;
+}
+.table_th_url{
+    min-width: 350px !important;
+}
+
+.table_td_role_desc{
+    min-width: 350px !important;
+}
+.table_td_url{
+    min-width: 350px !important;
+}

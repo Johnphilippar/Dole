@@ -1,0 +1,35 @@
+import React from 'react'
+import './Navbar.css';
+import { Link } from 'react-router-dom'
+
+const Navbar = () => {
+    return (
+        <nav className="navbar bg-dark">
+            <h1>
+                <Link to="/"><i className="fas fa-code"></i> DevConnector</Link>
+            </h1>
+            <ul>
+                <li>
+                    <Link to="Employee">Employee</Link>
+                </li>
+                <li>
+                    <Link to="Employee">Assets</Link>
+                </li>
+                <li>
+                    <Link to="Employee">Stocks</Link>
+                </li>
+                <li>
+                    <Link to="Employee">Supplier</Link>
+                </li>
+                <li>
+                    <Link to="Register">Register</Link>
+                    </li>
+                <li>
+                    <Link to="Login">Login</Link>
+                    </li>
+            </ul>
+        </nav>
+    )
+}
+
+export default Navbar

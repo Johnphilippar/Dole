@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://Jpparhehe:Jpparhehe@devconnector.apg5k.mongodb.net/DOLE?retryWrites=true&w=majority",
+    "jwtSecret":"secrettokens"
+}

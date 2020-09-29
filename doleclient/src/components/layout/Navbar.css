@@ -1,0 +1,24 @@
+.navbar{
+    height: 4.5em;
+    position: fixed;
+    top: 0px;
+    bottom: 80px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 16px;
+    width: 100%;
+    justify-content: space-between;
+    background: linear-gradient(#243b55,  #141e30);
+    z-index: 10;
+    font-weight: 600;
+}
+
+li{
+    display: inline;
+    padding: 0 8px;
+    line-height: 50px;
+    font-size: 18px;
+}
+ul li:hover{
+    text-decoration: none;
+}
